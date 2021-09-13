@@ -1,0 +1,41 @@
+.features__container {
+    padding-top: 54px;
+    padding-bottom: 80px;
+}
+
+.features__description {
+    padding-top: 24px;
+
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.features__image--container {
+    justify-content: space-around;
+    padding-top: 24px;
+}
+
+.features__image--square {
+    align-items: center;
+    justify-content: center;
+
+    width: 64px;
+    height: 64px;
+    border-radius: 16px;
+}
+
+.features__image--android {
+    background-color: $primary-button-color;
+}
+
+.features__image--apple {
+    background-color: $accent-color;
+}
+
+.features__image--x {
+    background-color: #84B5FF;
+}
+
+.features__image {
+    margin: 0;
+}

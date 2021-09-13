@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stan's Assets html-css-practice</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&family=Noto+Sans:wght@400;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.7.0/modern-normalize.min.css">
+    <!-- <link rel="stylesheet" href="./css/styles.css"> -->
+    <link rel="stylesheet" href="./css/main.min.css">
+</head>
+<body class="page">
+
+<!-- Header -->
+    <header class="header">
+        <div class="header__container container flexbox">
+    
+            <!-- Company logo -->
+            <a href="/" class="link logo header__logo header__logo--link">
+                <img src="./img/logo.png" alt="logo" class="header__logo--img" width="38" height="35">
+                stan's assets
+            </a>
+    
+            <button type="button" class="button menu__button">
+                <svg class="menu__icon" width="20px" height="20px">
+                    <use href="./img/svg-sprite.svg#burger-menu">
+                    </use>
+                </svg>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero section">
+        <h1 class="hero__title">
+            focus on the product <br>
+            and let us do the rest!
+        </h1>
+
+        <ul class="list flexbox hero__button--container">
+            <li class="hero__button hero__button--more">
+                <a class="link hero__button--link" href="#">more</a>
+            </li>
+            <li class="hero__button hero__button--contact">
+                <a class="link hero__button--link" href="#">contact us</a>
+            </li>
+        </ul>
+    </section>
+
+    <!-- About -->
+    <section class="section">
+        <div class="container about__container">
+            <p class="text about__description">
+                We’re an Indian software development company focused on just one thing - offshore software development
+                services. We have
+                16+ years of experience and a team of 450+ developers working efficiently to deliver unique solutions to
+                start-ups,
+                software development companies, enterprises, and digital agencies to simplify their IT outsourcing
+                experience & reduce
+                time/cost to market.
+            </p>
+        </div>
+    </section>
+
+<!-- Features -->
+    <section class="section">
+        <div class="container features__container">
+            <h2 class="title main__title">technologies</h2>
+            <p class="text features__description">
+                <span class="text__accent text__accent--primary">Stan’s</span> 
+                <span class="text__accent text__accent--secondary">Assets</span> is a team of developers that are committed to developing high quality and engaging entertainment software
+            </p>
+            <div class="features__image--container flexbox">
+                <div class="features__image--square features__image--android flexbox">
+                    <img class="image features__image" src="./img/android.png" alt="android-icon" height="40">
+                </div>
+                <div class="features__image--square features__image--apple flexbox">
+                    <img class="image features__image" src="./img/apple.png" alt="apple-icon" height="40">
+                </div>
+                <div class="features__image--square features__image--x flexbox">
+                    <img class="image features__image" src="./img/x.png" alt="x" height="40">
+                </div>
+            </div>
+            <p class="text features__description">
+                Our engineers develop applications for the most popular platforms.
+            </p>
+        </div>
+    </section>
+
+<!-- Rating section -->
+<section class="section ratings__section">
+    <div class="ratings__container">
+        <img src="./img/ratings-logo.png" alt="clutch logo" class="ratings__logo" width="132">
+        <div class="ratings__score--container flexbox">
+            <p class="ratings__score--text ratings__score--number">4,5</p>
+            <ul class="ratings__stars--container list flexbox">
+                <li class="ratings__star--item">
+                    <svg class="ratings__star--svg" width="24px" height="24px">
+                        <use href="./img/svg-sprite.svg#star"></use>
+                    </svg>
+                </li>
+                <li class="ratings__star--item">
+                    <svg class="ratings__star--svg" width="24px" height="24px">
+                        <use href="./img/svg-sprite.svg#star"></use>
+                    </svg>
+                </li>
+                <li class="ratings__star--item">
+                    <svg class="ratings__star--svg" width="24px" height="24px">
+                        <use href="./img/svg-sprite.svg#star"></use>
+                    </svg>
+                </li>
+                <li class="ratings__star--item">
+                    <svg class="ratings__star--svg" width="24px" height="24px">
+                        <use href="./img/svg-sprite.svg#star"></use>
+                    </svg>
+                </li>
+                <li class="ratings__star--item">
+                    <svg class="ratings__star--svg" width="24px" height="24px">
+                        <use href="./img/svg-sprite.svg#star"></use>
+                    </svg>
+                </li>
+            </ul>
+            <p class="ratings__score--text ratings__score--review">2 reviews</p>
+        </div>
+        <div class="button ratings__button flexbox">
+            <a href="#" class="link ratings__link">check out reviews</a>
+        </div>
+    </div>
+</section>
+
+<!-- Services section -->
+<section class="section">
+    <div class="container services__container">
+        <h2 class="title main__title">services</h2>
+
+        <div class="services__item">
+            <h3 class="subtitle">game development</h3>
+            <p class="text services__description">
+                With over 5 years of game development experience, we have all that it takes to develop a high quality product.
+            </p>
+            <img src="./img/game-delopment@1x.png" alt="game delopment" class="sevices__image" width="307px" height="269px" margin="0">
+        </div>
+
+        <div class="services__item">
+            <h3 class="subtitle">sdk development</h3>
+            <p class="text services__description">
+                Stan's Assets is one of the most popular developers within the Unity Asset Store. Want to test some of our amazing
+                software? Check out one of our many plugins. We guarantee your satisfaction.
+            </p>
+            <img src="./img/sdk-development@1x.png" alt="sdk development" class="services__image" width="307px" height="269px">
+        </div>
+
+        <div class="services__item">
+            <h3 class="subtitle">3d modeling services</h3>
+            <p class="text services__description">
+                We pride ourselves on producing high quality graphics support. Providing experienced designers to any project, and
+                offering affordable pricing for almost any budget.
+            </p>
+            <img src="./img/3d-modeling@1x.png" alt="3d modeling services" class="services__image" width="307px" height="269px">
+        </div>
+
+        <div class="services__item">
+            <h3 class="subtitle">vr app development</h3>
+            <p class="text services__description">
+                Virtual Reality is the future of gaming. We have expertise that can create a professional and fluid virtual reality
+                experience unlike anything you have ever seen.
+            </p>
+        </div>
+
+
+    </div>
+</section>
+
+<!-- Partnership request section -->
+<section class="section">
+    <div class="container partnership__container">
+        <h3 class="partnership__title">looking for a partner in building a solution?</h3>
+        <p class="partnership__description">
+            We are ready to discuss your project requirements
+        </p>
+        <div class="button partnership__button flexbox">
+            <a href="#" class="link partnership__link">let's talk</a>
+        </div>
+    </div>
+</section>
+
+<!-- Partners section -->
+<section class="section">
+    <div class="container partners__container">
+        <h2 class="title main__title partners__title">partners</h2>
+        <ul class="partners__card--wrapper flexbox list">
+                    <li class="partners__card flexbox">
+                        <img src="./img/moon@1x.png" alt="moon studios" class="partners__image" width="70" height="34">
+                    </li>
+                    
+                    <li class="partners__card flexbox">
+                        <img src="./img/scopely1x.png" alt="scopely" class="image" width="102" height="26">
+                    </li>
+                    
+                    <li class="partners__card flexbox">
+                        <img src="./img/roomfool@1x.png" alt="roomful" class="image" width="100" height="26">
+                    </li>
+                    
+                    <li class="partners__card flexbox">
+                        <img src="./img/rogue-sun@1x.png" alt="rouge sun" class="image" width="105" height="22">
+                    </li>
+                    
+                    <li class="partners__card flexbox">
+                        <img src="./img/playmaker@1x.png" alt="playmaker" class="image" width="31" height="31"> 
+                    </li>
+                    
+                    <li class="partners__card flexbox">
+                        <img src="./img/one_signal@1x.png" alt="one signal" class="image" width="46" height="37">
+                    </li>
+                    
+                    <li class="partners__card flexbox">
+                        <img src="./img/plawius@1x.png" alt="plawius" class="image" width="50" height="47">
+                    </li>
+                    
+                    <li class="partners__card flexbox">
+                        <img src="./img/soomla@1x.png" alt="soomla" class="image" width="42" height="42">
+                    </li>
+        </ul>
+    <!-- Or a pagination button? -->
+        <a href="#" class="link partners__link">Show more</a>
+    </div>
+
+</section>
+
+<!-- Contacts section -->
+<section class="section">
+    <div class="container contacts__container">
+        <h2 class="title main__title">contacts</h2>
+        <p class="text contacts__subtitle">
+            We are open for dialog and you are welcome to share your opinions or thoughts with us.
+        </p>
+        <p class="text contacts__description">
+            Hit us up any time through email with any idea and help us turn your great ideas into brilliant projects.
+        </p>
+
+        <ul class="list contacts__list">
+            <li class="contacts__item flexbox">
+                <svg class="contacts__icon--location" width="14px" height="20px">
+                    <use href="./img/svg-sprite.svg#location"></use>
+                </svg>
+                <span class="contact__details contact__details--location">
+                    Ukraine, Kyiv, Rodyny<br> Kristeriv 20B, office 188
+                </span>
+            </li>
+
+            <li class="contacts__item flexbox">
+                <svg class="contacts__icon" width="18px" height="18px">
+                    <use href="./img/svg-sprite.svg#phone"></use>
+                </svg>
+               <a href="tel:+380933455676" class="link contacts__link">
+                    <span class="contact__details">
+                        +38 (093) 345 56 76
+                    </span>
+               </a>
+            </li>
+
+            <li class="contacts__item flexbox">
+                <a href="whatsapp://send?phone=+380933455677" class="link contacts__link flexbox">
+                    <svg class="contacts__icon" width="20px" height="20px">
+                        <use href="./img/svg-sprite.svg#whatsapp"></use>
+                    </svg>
+                    <span class="contact__details">
+                        +38 (093) 345 56 77
+                    </span>
+                </a>
+            </li>
+
+            <li class="contacts__item flexbox">
+                <a href="skype:Stanassets?chat" class="link contacts__link flexbox">
+                    <svg class="contacts__icon" width="20px" height="20px">
+                        <use href="./img/svg-sprite.svg#skype"></use>
+                    </svg>
+                    <span class="contact__details">
+                        Stanassets
+                    </span>
+                </a>
+            </li>
+
+            <li class="contacts__item flexbox">
+                <a href="mailto:sanassets@gmail.com" class="link contacts__link flexbox">
+                    <svg class="contacts__icon" width="20px" height="16px">
+                        <use href="./img/svg-sprite.svg#mail"></use>
+                    </svg>
+                    <span class="contact__details">
+                        stanAssets@gmail.com
+                    </span>
+                </a>    
+            </li>
+
+
+            <li class="contacts__item">
+                <a href="#" class="link contacts__link flexbox">
+                    <svg class="contacts__icon" width="20px" height="20px">
+                        <use href="./img/svg-sprite.svg#facebook"></use>
+                    </svg>
+                    <span class="contact__details">
+                        facebook.com/Stanassets
+                    </span>
+                </a>
+            </li>
+        </ul>
+
+        <!-- Contact form -->
+        <form action="#" class="form">
+            <div class="form__field">    
+                <div class="input__container">
+                    <input type="text" name="name" id="name" class="form__input">
+                    <label for="name" class="form__label">Name</label>
+                    <svg class="input__icon" style="width: 13px; height: 13px;">
+                        <use href="./img/svg-sprite.svg#name-icon"></use>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="form__field">
+                <div class="input__container">
+                    <input type="email" id="email" class="form__input">
+                    <label for="email" class="form__label">Email</label>
+                    <svg class="input__icon" style="width: 15px; height: 12px;">
+                       <use href="./img/svg-sprite.svg#mail"></use>
+                    </svg>
+                </div>
+            </div>
+
+            <div class="form__field">
+                <!-- <label for="comment" class="form__label">Message</label> -->
+                <textarea name="comment" id="comment" rows="4" placeholder="Message" class="form__comment"></textarea>
+            </div>
+
+            <div class="form__field form__field--button">
+                <button type="submit" class="button form__button">send request</button>
+            </div>
+        </form>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer section">
+    <div class="container footer__container">
+        <a href="/" class="link logo footer__logo footer__logo--link">
+            <img src="./img/logo.png" alt="logo" class="footer__logo--img" width="54" height="51">
+            stan's assets
+        </a>
+
+        <ul class="social flexbox list">
+            <li class="social__item">
+               <a href="#" class="link">
+                   <svg class="social__icon" style="width:32px; height:32px;">
+                       <use href="./img/svg-sprite.svg#facebook"></use>
+                   </svg>
+               </a> 
+            </li>
+            <li class="social__item">
+                <a href="#" class="link">
+                    <svg class="social__icon" style="width:32px; height:32px;">
+                        <use href="./img/svg-sprite.svg#linkedin"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social__item">
+                <a href="#" class="link">
+                    <svg class="social__icon" style="width:32px; height:32px;">
+                        <use href="./img/svg-sprite.svg#whatsapp"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social__item">
+                <a href="#" class="link">
+                    <svg class="social__icon" style="width:32px; height:32px;">
+                        <use href="./img/svg-sprite.svg#skype"></use>
+                    </svg>
+                </a>
+            </li>
+            <li class="social__item">
+                <a href="#" class="link">
+                    <svg class="social__icon" style="width:32px; height:32px;">
+                        <use href="./img/svg-sprite.svg#github"></use>
+                    </svg>
+                </a>
+            </li>
+        </ul>
+
+        <ul class="list footer__menu">
+            <li>
+                <h2 class="title footer__title">services</h2>
+                <ul class="list footer__menu--list">
+                    <li class="footer__menu--item">
+                        <a href="#" class="link footer__menu--link">Mobile Application Development</a>
+                    </li>
+                    <li class="footer__menu--item">
+                        <a href="#" class="link footer__menu--link">Game Development Outsourcing</a>
+                    </li>
+                    <li class="footer__menu--item">
+                        <a href="#" class="link footer__menu--link">VR App Development</a>
+                    </li>
+                    <li class="footer__menu--item">
+                        <a href="#" class="link footer__menu--link">Dedicated Developers</a>
+                    </li>
+                    <li class="footer__menu--item">
+                        <a href="#" class="link footer__menu--link">SDK Development</a>
+                    </li>
+                    <li class="footer__menu--item">
+                        <a href="#" class="link footer__menu--link">3D Modeling services</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2 class="title footer__title">technologies</h2>
+                <ul class="list footer__menu--list">
+                    <li class="footer__menu--item">
+                        <a href="#" class="link footer__menu--link">Android</a>    
+                    </li>
+                    <li class="footer__menu--item">
+                        <a href="#" class="link footer__menu--link">IOS</a>
+                    </li>
+                    <li class="footer__menu--item">
+                        <a href="#" class="link footer__menu--link">Unity</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <h2 class="title footer__title">products</h2>
+            </li>
+            <li>
+                <h2 class="title footer__title">portfolio</h2>
+            </li>
+            <li>
+                <h2 class="title footer__title">blog</h2>
+            </li>
+            <li>
+                <h2 class="title footer__title">about us</h2>
+                <ul class="list footer__menu--list">
+                    <li class="footer__menu--item">
+                        <a href="#" class="link footer__menu--link">Contacts</a>
+                    </li>
+                    <li class="footer__menu--item">
+                        <a href="#" class="link footer__menu--link">Team</a>
+                    </li>
+                    <li class="footer__menu--item">
+                        <a href="#" class="link footer__menu--link">Join the Team</a>
+                    </li>
+                </ul>
+            </li>
+        </ul>        
+    </div>
+    <div class="container footer__bottom">
+            <ul class="list flexbox">
+                <li class="footer__bottom--item">
+                    <p>© 2021 - Stan’s Assets. All Right Reserved</p>
+                </li>
+                <li class="footer__bottom--item">
+                    <a href="#" class="link footer__bottom--link">Privacy policy</a>
+                </li>
+                <li class="footer__bottom--item">
+                    <a href="#" class="link footer__bottom--link">Cookies policy</a>
+                </li>
+            </ul>
+    </div>
+</footer>
+</body>
+</html>

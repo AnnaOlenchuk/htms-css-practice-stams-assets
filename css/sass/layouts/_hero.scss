@@ -1,0 +1,79 @@
+.hero {
+    position: relative;
+
+    height: 340px;
+    margin: 0 auto;
+
+    background-image: 
+    linear-gradient(to bottom, #1F0047 10.07%, rgba(16, 0, 80, 0.1) 46.78%, rgba(25, 0, 123, 0) 73.62%),
+    url(../img/hero-mobile2x.png);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.hero__title {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 320px;
+
+    color: $white-color;
+    font-family: Noto Sans, sans-serif;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 24px;
+    line-height: 38px;
+    text-align: center;
+
+    margin: 0;
+}
+
+.hero__button--container {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+.hero__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 146px;
+    height: 42px;
+
+    border-radius: 6px;
+    text-align: center;
+}
+
+.hero__button--more {
+    border: 2px solid $white-color;
+    margin-right: 30px;
+}
+
+.hero__button--contact {
+    border: none;
+    background-color: $primary-button-color;
+}
+
+.hero__button--link {
+    display: block;
+
+    color: $white-color;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+    line-height: 36px;
+    font-weight: 700;
+    text-transform: uppercase;
+
+    & :visited,
+    & :focus {
+        color: $white-color;
+    }
+}
+

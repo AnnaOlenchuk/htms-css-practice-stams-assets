@@ -1,0 +1,47 @@
+.title {
+    margin: 0;
+
+    font-family: Montserrat, sans-serif;
+    text-transform: uppercase;
+    
+}
+
+.main__title {
+    color: $primary-title-color;
+    font-size: 22px;
+    line-height: 24px;
+}
+
+.subtitle {
+    margin: 0;
+    
+    font-family: Montserrat, sans-serif;
+    color: $secondary-title-color;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 38px;
+    
+}
+
+.footer__title {
+    padding-bottom: 20px;
+
+    color: $white-color;
+    text-align: left;
+
+    font-size: 18px;
+    line-height: 21px;
+    font-weight: 600;
+}
+
+.text__accent {
+    font-weight: 700;
+}
+
+.text__accent--primary {
+    color: $secondary-title-color;
+}
+
+.text__accent--secondary {
+    color: $primary-title-color;
+}
