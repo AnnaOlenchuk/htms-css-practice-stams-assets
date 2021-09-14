@@ -536,8 +536,65 @@
   text-transform: uppercase;
 }
 
+.achievements__container {
+  padding-top: 80px;
+}
+
+.achievements__list {
+  padding-top: 50px;
+}
+
+.achievements__card {
+  width: 320px;
+  height: 400px;
+  padding-top: 280px;
+  margin-bottom: 40px;
+  border-radius: 16px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+          box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.achievements__card:last-child {
+  margin-bottom: 0;
+}
+
+.achievements__card--moon {
+  background-image: url(../img/moon-achievements.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.achievements__card--projects {
+  background-image: url(../img/rocket.png);
+}
+
+.achievements__card--store {
+  background-image: url(../img/store-achievements.png);
+}
+
+.achievements__card--stats {
+  background-image: url(../img/box-achievements.png);
+}
+
+.achievements__description {
+  width: 290px;
+  margin: 0 auto;
+  color: #242424;
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.achievements__description--accent {
+  color: #276ED8;
+  font-weight: 700;
+}
+
 .partners__container {
-  padding-top: 60px;
+  padding-top: 80px;
   padding-bottom: 80px;
   background-color: #276ED8 10%;
 }
@@ -675,6 +732,10 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+}
+
+.social__icon {
+  fill: red;
 }
 
 .footer__menu--list {

@@ -1,0 +1,60 @@
+.achievements__container {
+    padding-top: 80px;
+}
+
+.achievements__list {
+    padding-top: 50px;
+}
+
+.achievements__card {
+    width: 320px;
+    height: 400px;
+
+    padding-top: 280px;
+
+    margin-bottom: 40px;
+    &:last-child {
+        margin-bottom: 0;
+    }
+
+    border-radius: 16px;
+    // background-color: $secondary-bg-color;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+
+.achievements__card--moon {
+    background-image: url(../img/moon-achievements.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.achievements__card--projects {
+    background-image: url(../img/rocket.png);
+}
+
+.achievements__card--store {
+    background-image: url(../img/store-achievements.png);
+}
+
+.achievements__card--stats {
+    background-image: url(../img/box-achievements.png);
+}
+
+.achievements__description {
+    width: 290px;   
+    margin: 0 auto;
+
+    color: $primary-text-color;
+    font-size: 16px;
+    line-height: 26px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.achievements__description--accent{
+    color: $accent-color;
+    font-weight: 700;
+}
