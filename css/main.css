@@ -76,10 +76,6 @@
   color: #FFFFFF;
 }
 
-.menu__icon {
-  fill: var(--white-color);
-}
-
 .menu__button {
   position: absolute;
   top: 15px;
@@ -88,6 +84,7 @@
   margin: 0;
   width: 20px;
   height: 20px;
+  background-color: transparent;
 }
 
 .title {
@@ -211,6 +208,16 @@
   line-height: 22px;
   font-weight: 700;
   text-transform: uppercase;
+}
+
+.social {
+  width: 320px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-bottom: 60px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 
 .header {
@@ -722,20 +729,6 @@
 
 .footer__logo--img {
   margin-right: 6px;
-}
-
-.social {
-  width: 320px;
-  margin-right: auto;
-  margin-left: auto;
-  padding-bottom: 60px;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.social__icon {
-  fill: red;
 }
 
 .footer__menu--list {
